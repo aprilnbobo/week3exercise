@@ -1,5 +1,39 @@
 nav {
-background-color: tomato
-	color: white;
+	background-color: tomato;
+	padding:2.5% 1% ;
 	text-align: center;
+}
+nav ul{
+	position: center;
+	display: inline-block;
+}
+nav ul a{
+	position: center;
+	text-align: center;
+	margin: 15px;
+	font-size: 2rem;
+	border-radius: auto;
+	border: double;
+	transition: 0.5s ease;
+}
+a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: teal;
+    background-color: white;
+    text-decoration: underline;
+    font-size: 5rem;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
