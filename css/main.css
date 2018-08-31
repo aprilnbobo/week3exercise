@@ -37,3 +37,10 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+div button{
+	position: center;
+	text-align: center;
+	margin: 5%;
+	font-size: 2rem;
+	margin-right: 5%;
+}
