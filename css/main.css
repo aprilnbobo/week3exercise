@@ -1,12 +1,5 @@
-body {
+nav {
 background-color: tomato
 	color: white;
 	text-align: center;
-}
-h1, h2{
-	border:1px solid black;
-	display: inline-block;
-	font-size: 75px;
-	background-color: darkred;
-
 }
