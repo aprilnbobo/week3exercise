@@ -1,46 +1,41 @@
-nav {
+nav{
 	background-color: tomato;
-	padding:2.5% 1% ;
 	text-align: center;
+	padding: 20px 0;
 }
-nav ul{
-	position: center;
+nav ul li{
 	display: inline-block;
-}
-nav ul a{
-	position: center;
-	text-align: center;
-	margin: 15px;
-	font-size: 2rem;
-	border-radius: auto;
-	border: double;
+	background-color: white;
+	padding: 10px 15px;
 	transition: 0.5s ease;
 }
-a:link {
-    color: green; 
-    background-color: transparent; 
-    text-decoration: none;
+nav ul li a{
+	transition: 0.5 ease;
 }
-a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
+nav ul li:hover{
+	transform:scale(1.2);
+	background-color: tomato;
+	border: none;
 }
-a:hover {
-    color: teal;
-    background-color: white;
-    text-decoration: underline;
-    font-size: 5rem;
+nav ul li:hover a {
+	text-decoration: none;
+	color: #FFF;
 }
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
+button{
+	background-color: lightgreen;
+	color:darkgreen;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 25px;
+	margin: 5px;
+	transition: 0.25s ease;
+
 }
-div button{
-	position: center;
+button:hover{
+	color:#FFF;
+	background-color: purple;
+}
+div#button{
 	text-align: center;
-	margin: 5%;
-	font-size: 2rem;
-	margin-right: 5%;
+	padding:50px 0;
 }
